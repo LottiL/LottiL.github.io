@@ -1,0 +1,54 @@
+.container{
+  display: block; 
+  justify-content: center;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  height: 300px;
+  background: top / contain no-repeat url("https://imgix.bustle.com/uploads/image/2020/7/7/defc6521-bc35-4c00-8050-10e7bc1b83de-a69be312-b1a6-47ec-9082-ca5d837f81ca-anakin_skywalker_hayden_christensen_star_wars-1.jpeg?w=2000&h=640&auto=format%2Ccompress&cs=srgb&q=70&fit=crop&crop=faces")           ;
+}
+
+h1{
+  font-family: Abril Fatface;
+  color: #222;
+}
+
+h3{
+  font-family: Abril Fatface;
+  color: #222;
+}
+
+h4{
+  font-family: Abril Fatface;
+  color: #222;
+}
+
+h5{
+  font-family: Abril Fatface;
+  color: #222;
+}
+
+p{
+  font-family: Josefin Sans;
+  color: #222;
+}
+
+.sub{
+  font-family: Merriweather;
+  color: black;
+  font-size: 15px;
+}
+
+.citation{
+  font-family: Abril Fatface;
+  background-color: #222; 
+  color: white;
+}
+
+.citation::before {
+  content: '”';
+  /* then the styling */
+}
